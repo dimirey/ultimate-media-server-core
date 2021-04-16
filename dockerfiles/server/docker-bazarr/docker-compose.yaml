@@ -20,7 +20,7 @@ services:
       - /nas:/nas
 
     environment:
-      - TZ=UTC
+      - TZ=America/Los_Angeles
       - PGID=0
       - PUID=0
 

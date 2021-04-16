@@ -19,7 +19,7 @@ services:
       - /nas:/nas
 
     environment:
-      - TZ=UTC
+      - TZ=America/Los_Angeles
       - WEBUI_PORT=8080
       - PUID=0
       - PGID=0

@@ -23,7 +23,7 @@ services:
       - /opt/docker-plex/transcode-tmp:/transcode
 
     environment:
-      - TZ=Australia/Brisbane
+      - TZ=America/Los_Angeles
       - PLEX_UID=0
       - PLEX_GID=0
 

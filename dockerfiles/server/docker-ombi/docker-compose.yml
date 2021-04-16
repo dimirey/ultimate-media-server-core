@@ -14,7 +14,7 @@ services:
       - /opt/docker-ombi/config:/config
 
     environment:
-      - TZ=UTC
+      - TZ=America/Los_Angeles
 
     healthcheck:
       test: curl --fail -s http://localhost:3579/ || exit 1
